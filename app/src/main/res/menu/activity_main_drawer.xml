@@ -10,19 +10,19 @@
         >
         <item
             android:id="@+id/nav_1"
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_book_black_24dp"
             android:title="Educación Ambiental" />
         <item
             android:id="@+id/nav_2"
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_papers_black_24dp"
             android:title="Noticias Ambientales" />
         <item
             android:id="@+id/nav_3"
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_planeta_24dp"
             android:title="Áreas naturales" />
         <item
             android:id="@+id/nav_4"
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_calendar_black_24dp"
             android:title="Eventos Medioambientales" />
         <item
             android:id="@+id/nav_5"
@@ -68,7 +68,7 @@
             android:icon="@drawable/ic_menu_share"
             android:title="Notificaciones" />
         <item
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/ic_person_black_24dp"
             android:title="Debate" />
     </group>
 
