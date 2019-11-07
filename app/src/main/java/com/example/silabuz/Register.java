@@ -39,8 +39,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     @Override
     public void onClick(View view) {
 
-
-
         final String nombre=enombre.getText().toString();
         final String apellido=eapellido.getText().toString();
         final String correo=ecorreo.getText().toString();

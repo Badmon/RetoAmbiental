@@ -22,7 +22,6 @@
         app:headerLayout="@layout/nav_header_main"
         app:itemIconPadding="5dp"
         app:itemHorizontalPadding="10dp"
-        app:itemIconTint="#42513C"
         app:itemTextColor="#000000"
         app:menu="@menu/activity_main_drawer" />
 
