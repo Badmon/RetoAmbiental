@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -61,8 +64,8 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_reto) {
-            Intent intentReg = new Intent(MainActivity.this, First.class);
+        if (id == R.id.btn_salir) {
+            Intent intentReg = new Intent(MainActivity.this,First.class);
             MainActivity.this.startActivity(intentReg);
         } else if (id == R.id.nav_1) {
 
@@ -72,12 +75,15 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_4) {
 
-        }else if (id == R.id.btn_cerrarsesion) {
-
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+
+
+
     }
+
+
 }

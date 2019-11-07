@@ -32,9 +32,6 @@
             android:src="@drawable/avatar" />
 
 
-
-
-
         <EditText
             android:id="@+id/tv_correo"
             android:layout_width="350dp"

@@ -6,7 +6,8 @@
     tools:showIn="navigation_view">
 
     <group
-        android:checkableBehavior="single">
+        android:checkableBehavior="single"
+        >
         <item
             android:id="@+id/nav_1"
             android:icon="@drawable/reto"
@@ -34,37 +35,41 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_reto"
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Retos" />
         <item
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Mi Informe" />
         <item
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Amigos" />
         <item
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Desafios Grupales" />
         <item
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Comparte tu actividad" />
         <item
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Premio" />
         <item
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Ranking" />
 
     </group>
-
 
     <group
         android:id="@+id/group2"
         android:checkableBehavior="single">
         <item
-            android:icon="@drawable/ic_menu_manage"
-            android:title="asd" />
+            android:icon="@drawable/ic_menu_share"
+            android:title="Consejos Diarios" />
+        <item
+            android:icon="@drawable/ic_menu_share"
+            android:title="Notificaciones" />
+        <item
+            android:icon="@drawable/ic_menu_share"
+            android:title="Debate" />
     </group>
-
 
 </menu>
