@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="200dp"
+            android:paddingBottom="30dp"
+            android:text="CREAR MI CUENTA"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:paddingLeft="0dp">
+
+            <EditText
+                android:id="@+id/tv_nombre"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Nombres:"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:padding="10dp"
+                android:background="@drawable/button2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/tv_apellido"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Apellidos:"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:padding="10dp"
+                android:background="@drawable/button2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/tv_correo"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Correo:"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:padding="10dp"
+                android:background="@drawable/button2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/tv_contrasena"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Contraseña:"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:padding="10dp"
+                android:background="@drawable/button2"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="       " />
+
+
+        <Button
+            android:id="@+id/btn_registrarme"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button1"
+            android:text="Registrar"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

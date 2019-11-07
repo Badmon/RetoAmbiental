@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/reto"
+            android:title="Educación Ambiental" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/reto"
+            android:title="Noticias Ambientales" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/reto"
+            android:title="Áreas naturales" />
+        <item
+            android:id="@+id/nav_4"
+            android:icon="@drawable/reto"
+            android:title="Eventos Medioambientales" />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@drawable/reto"
+            android:title="Multimedia" />
+    </group>
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reto"
+            android:icon="@drawable/reto"
+            android:title="Retos" />
+        <item
+            android:icon="@drawable/reto"
+            android:title="Mi Informe" />
+        <item
+            android:icon="@drawable/reto"
+            android:title="Amigos" />
+        <item
+            android:icon="@drawable/reto"
+            android:title="Desafios Grupales" />
+        <item
+            android:icon="@drawable/reto"
+            android:title="Comparte tu actividad" />
+        <item
+            android:icon="@drawable/reto"
+            android:title="Premio" />
+        <item
+            android:icon="@drawable/reto"
+            android:title="Ranking" />
+
+    </group>
+
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_menu_manage"
+            android:title="asd" />
+    </group>
+
+
+</menu>
