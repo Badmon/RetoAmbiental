@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_reto) {
-            Intent intentReg = new Intent(MainActivity.this,First.class);
+            Intent intentReg = new Intent(MainActivity.this,Retos.class);
             MainActivity.this.startActivity(intentReg);
         } else if (id == R.id.nav_1) {
 
