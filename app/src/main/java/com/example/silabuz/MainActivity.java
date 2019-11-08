@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.btn_salir) {
+        if (id == R.id.nav_reto) {
             Intent intentReg = new Intent(MainActivity.this,First.class);
             MainActivity.this.startActivity(intentReg);
         } else if (id == R.id.nav_1) {

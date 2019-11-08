@@ -47,14 +47,14 @@
             android:icon="@drawable/ic_desafios_24dp"
             android:title="Desafios Grupales" />
         <item
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_share_24dp"
             android:title="Comparte tu actividad" />
         <item
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_start_24dp"
             android:title="Premio" />
         <item
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Ranking" />
+            android:icon="@drawable/ic_ranking_24dp"
+            android:title="Ranking"/>
 
     </group>
 
@@ -62,13 +62,13 @@
         android:id="@+id/group2"
         android:checkableBehavior="single">
         <item
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/ic_consejos_24dp"
             android:title="Consejos Diarios" />
         <item
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/ic_notificationes_black_24dp"
             android:title="Notificaciones" />
         <item
-            android:icon="@drawable/ic_person_black_24dp"
+            android:icon="@drawable/ic_debate_24dp"
             android:title="Debate" />
     </group>
 
