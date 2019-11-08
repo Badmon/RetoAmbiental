@@ -26,7 +26,7 @@
             android:title="Eventos Medioambientales" />
         <item
             android:id="@+id/nav_5"
-            android:icon="@drawable/reto"
+            android:icon="@drawable/ic_multi_24dp"
             android:title="Multimedia" />
     </group>
 
@@ -35,16 +35,16 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_reto"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_retos"
             android:title="Retos" />
         <item
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_informe_24dp"
             android:title="Mi Informe" />
         <item
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_amigos_24dp"
             android:title="Amigos" />
         <item
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_desafios_24dp"
             android:title="Desafios Grupales" />
         <item
             android:icon="@drawable/ic_menu_manage"
